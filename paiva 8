@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Paiva is dedicated to empowering communities through sustainable practices and education. Join us in making a difference.">
+    <title>Paiva - Empowering Communities</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2E7D32; /* Dark green */
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.8em;
+            margin: 0;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white; /* White color for links */
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #4CAF50; /* Light green on hover */
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2E7D32; /* Dark green */
+            margin-top: 20px;
+            border-bottom: 2px solid #2E7D32;
+            padding-bottom: 5px;
+        }
+
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #e9f5e9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2E7D32; /* Dark green */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%; /* Full width for inputs */
+            box-sizing: border-box; /* Include padding in width */
+        }
+
+        input[type="submit"] {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%; /* Full width for button */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2em;
+            }
+
+            nav ul li {
+                margin: 0 10px;
+            }
+
+            nav ul li a {
+                padding: 10px 15px;
+            }
+
+            main {
+                padding: 15px;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            nav ul {
+                flex-direction: column; /* Stack menu items */
+            }
+
+            nav ul li {
+                margin: 5px 0; /* Adjust margin */
+            }
+
+            input[type="submit"], input[type="text"], input[type="email"], textarea {
+                font-size: 0.9em; /* Slightly smaller font size */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Paiva</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#environment">Care for the Environment</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>At Paiva, we specialize in garbage collection services, dedicated to empowering communities through sustainable practices and effective waste management. Our organization focuses on various initiatives aimed at enhancing the quality of life for individuals and families in our community. We believe in the power of collaboration and work closely with local leaders, volunteers, and partners to drive positive change.</p>
+            <p>Our services include educational programs, environmental advocacy, and community outreach projects that aim to raise awareness about important social and environmental issues. Through our efforts, we strive to create a more informed and engaged community that is equipped to tackle challenges and seize opportunities.</p>
+        </section>
+
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <p>Paiva specializes in comprehensive garbage collection services tailored to meet the needs of our community:</p>
+            <ul>
+                <li><strong>Home Garbage Collection:</strong> Reliable and efficient waste collection from residential areas, ensuring a clean and healthy environment for families.</li>
+                <li><strong>School Garbage Collection:</strong> Dedicated garbage collection services for schools, promoting cleanliness and sustainability in educational institutions.</li>
+                <li><strong>Community Education Programs:</strong> Workshops and training sessions focused on sustainability, health, and personal development.</li>
+                <li><strong>Environmental Advocacy:</strong> Promoting policies and practices that protect the environment.</li>
+                <li><strong>Support for Local Initiatives:</strong> Partnering with organizations to benefit the community.</li>
+                <li><strong>Recycling Programs:</strong> Facilitating recycling initiatives for responsible waste management.</li>
+                <li><strong>Volunteer Opportunities:</strong> Providing programs for hands-on involvement in the community.</li>
+            </ul>
+        </section>
+
+        <section id="faq" class="section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3 onclick="toggleFAQ('faq1-answer')">What services does Paiva offer?</h3>
+                <div id="faq1-answer" class="faq-answer">
+                    <p>Paiva offers a variety of services including home and school garbage collection, community education programs, and environmental advocacy.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 onclick="toggleFAQ('faq2-answer')">How can I get involved with Paiva?</h3>
+                <div id="faq2-answer" class="faq-answer">
+                    <p>You can get involved by volunteering for our events, participating in our programs, or donating to support our initiatives.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 onclick="toggleFAQ('faq3-answer')">Where can I find more information about upcoming events?</h3>
+                <div id="faq3-answer" class="faq-answer">
+                    <p>Upcoming events are listed on our website under the Events section. You can also subscribe to our newsletter for updates.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 onclick="toggleFAQ('faq4-answer')">How do I contact Paiva for more questions?</h3>
+                <div id="faq4-answer" class="faq-answer">
+                    <p>You can contact us through the Contact Us page on our website or email us directly at info@paiva.org.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="environmental-care" class="section">
+            <h2>Environmental Care Tips</h2>
+            <p>Here are some simple yet effective ways you can contribute to caring for the environment:</p>
+            <ul>
+                <li><strong>Reduce, Reuse, Recycle:</strong> Always try to minimize waste by reducing what you use, reusing items when possible, and recycling materials like paper, plastic, and glass. This not only conserves resources but also reduces the amount of waste sent to landfills.</li>
+                <li><strong>Conserve Water:</strong> Be mindful of water usage. Simple actions like fixing leaks, taking shorter showers, and using water-efficient appliances can make a big difference. Conserving water helps protect our natural resources and ensures a sustainable supply for future generations.</li>
+                <li><strong>Use Energy Wisely:</strong> Turn off lights and unplug devices when not in use. Consider switching to energy-efficient appliances and using renewable energy sources like solar or wind. This reduces your carbon footprint and saves on energy costs.</li>
+                <li><strong>Plant Trees:</strong> Trees absorb carbon dioxide and provide oxygen. Participate in tree planting initiatives or plant trees in your own yard. Trees play a crucial role in maintaining ecological balance and supporting wildlife.</li>
+                <li><strong>Support Local and Sustainable Products:</strong> Choose to buy from local farmers and businesses that prioritize sustainable practices. Supporting local economies reduces transportation emissions and promotes community well-being.</li>
+                <li><strong>Educate Others:</strong> Share information about environmental issues and encourage friends and family to adopt eco-friendly habits. Raising awareness can lead to greater collective action for the environment.</li>
+                <li><strong>Participate in Clean-Up Drives:</strong> Join community clean-up events to help keep your local environment clean and beautiful. These activities foster community spirit and promote environmental stewardship.</li>
+            </ul>
+        </section>
+
+        <section id="survey" class="section">
+            <h2>Feedback on Vision and Mission</h2>
+            <p>We want your input! Please take a moment to fill out our survey:</p>
+            <form action="https://example.com/submit-survey" method="POST">
+                <label for="vision-feedback">What do you think about our current vision statement?</label>
+                <select id="vision-feedback" name="vision-feedback">
+                    <option value="strongly-agree">Strongly Agree</option>
+                    <option value="agree">Agree</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="disagree">Disagree</option>
+                    <option value="strongly-disagree">Strongly Disagree</option>
+                </select>
+
+                <label for="mission-feedback">How does our mission resonate with you?</label>
+                <select id="mission-feedback" name="mission-feedback">
+                    <option value="very-well">Very Well</option>
+                    <option value="well">Well</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="poorly">Poorly</option>
+                    <option value="very-poorly">Very Poorly</option>
+                </select>
+
+                <label for="suggestions">What suggestions do you have to improve our vision and mission?</label>
+                <textarea id="suggestions" name="suggestions" rows="4" cols="50"></textarea>
+
+                <label for="comments">Any additional comments or feedback?</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section id="newsletter" class="section">
+            <h2>Stay Updated!</h2>
+            <p>Subscribe to our newsletter:</p>
+            <form action="https://example.com/subscribe" method="POST">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Subscribe">
+            </form>
+            <p><strong>Subject:</strong> Exciting Updates to Our Vision and Mission!</p>
+            <p>Dear Community,</p>
+            <p>We are thrilled to share that we have updated our vision and mission statements based on your valuable feedback. Your input is essential in guiding our efforts to empower our community.</p>
+            <p>Thank you for being an integral part of Paiva!</p>
+        </section>
+
+        <section id="quotation" class="section">
+            <h2>Request a Quotation</h2>
+            <p>If you would like to request a quotation for our services, please fill out the form below:</p>
+            <form action="https://example.com/request-quotation" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email-quotation">Your Email:</label>
+                <input type="email" id="email-quotation" name="email" required>
+
+                <label for="service">Service Required:</label>
+                <input type="text" id="service" name="service" required>
+
+                <label for="details">Additional Details:</label>
+                <textarea id="details" name="details" rows="4" cols="50" placeholder="Please provide any specific requirements or details."></textarea>
+
+                <input type="submit" value="Request Quotation">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Paiva. All rights reserved.</p>
+    </footer>
+</body>
+</html>
